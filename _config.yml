@@ -7,8 +7,8 @@ description: A blog about technology and stuff related
 
 # if it's an external image, update below for true
 # better with square images
-external-image: false
-picture: http://bagher.me/assets/images/kassem.jpeg
+external-image: true
+picture: https://bagher.me/assets/images/kassem.jpeg
 
 
 # your site color theme, true for dark theme, 
