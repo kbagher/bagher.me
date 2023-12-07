@@ -21,7 +21,7 @@ resume: false
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://sergiokopplin.github.io/indigo
+url: https://kbagher.github.io/indigo
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
@@ -35,12 +35,12 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
+#facebook: myfacebook
 twitter: mytwitter
-instagram: myinstagram
+#instagram: myinstagram
 linkedin: mylinkedin
-github: mygithub
-email: myemail@gmail.com
+#github: mygithub
+#email: kassem@bagher.me
 
 authors:
   johndoe:
