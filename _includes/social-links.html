@@ -47,15 +47,10 @@
 
     <script type="text/javascript">
 document.addEventListener("DOMContentLoaded", function() {
-    var part1 = "kas";
-    var part2 = "sem";
-    var at = String.fromCharCode(64); // ASCII code for '@'
-    var domain = "bagh";
-    var topDomain = "er.me";
-    var emailLink = document.getElementById("email-link");
-    
-    emailLink.setAttribute("href", "mailto:" + part1 + part2 + at + domain + topDomain);
-    emailLink.setAttribute("data-title", part1 + part2 + at + domain + topDomain);
+  var user = "kassem";
+  var domain = "bagher.me";
+  var element = document.getElementById("email-link");
+  element.setAttribute("href", "mailto:" + user + "@" + domain);
 });
 </script>
 
