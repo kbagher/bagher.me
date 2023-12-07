@@ -1,18 +1,5 @@
 <!-- To add more icons, duplicate a section and find yout icon here -> https://fontawesome.com/v6.0/icons -->
 
-document.addEventListener("DOMContentLoaded", function() {
-    var part1 = "kas";
-    var part2 = "sem";
-    var at = String.fromCharCode(64); // ASCII code for '@'
-    var domain = "bagh";
-    var topDomain = "er.me";
-    var emailLink = document.getElementById("email-link");
-    
-    emailLink.setAttribute("href", "mailto:" + part1 + part2 + at + domain + topDomain);
-    emailLink.setAttribute("data-title", part1 + part2 + at + domain + topDomain);
-});
-
-
 <div class="social-links">
     {% if site.facebook %}
         <a class="link" data-title="facebook.com/{{ site.facebook }}" href="https://facebook.com/{{ site.facebook }}" target="_blank" rel="noopener" alt="anchor link for social media facebook" aria-label="anchor link for social media facebook">
@@ -56,3 +43,20 @@ document.addEventListener("DOMContentLoaded", function() {
         </a>
     {% endif %}
 </div> -->
+
+
+    <script type="text/javascript">
+document.addEventListener("DOMContentLoaded", function() {
+    var part1 = "kas";
+    var part2 = "sem";
+    var at = String.fromCharCode(64); // ASCII code for '@'
+    var domain = "bagh";
+    var topDomain = "er.me";
+    var emailLink = document.getElementById("email-link");
+    
+    emailLink.setAttribute("href", "mailto:" + part1 + part2 + at + domain + topDomain);
+    emailLink.setAttribute("data-title", part1 + part2 + at + domain + topDomain);
+});
+</script>
+
+
